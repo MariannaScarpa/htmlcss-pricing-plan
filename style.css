@@ -11,12 +11,6 @@ header {
     justify-content: space-between;
 }
 
-.intestazione {
-    display: flex;
-    justify-content: space-between;
-
-}
-
 main {
     display: flex;
     justify-content: space-around;
@@ -31,8 +25,8 @@ main {
 
 .contenuto {
     box-sizing: border-box;
-    /*box-shadow: 20px 5px 10px 1px black; studia le ombre*/
-    border: solid 2px black;
+    box-shadow: 20px 5px 10px 1px rgb(177, 177, 177);
+    /*border: solid 2px black;*/
     min-width: 275px;
     padding: 30px 10px 20px;
     border-radius: 10px;
@@ -114,4 +108,11 @@ button {
 
 .vantaggi p {
     line-height: 2em;
+}
+
+@media only screen and (min-width:500px) and (max-width:890px) {
+    .card-colori {
+        order: +1;
+
+    }
 }
