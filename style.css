@@ -4,21 +4,44 @@
     font-family: sans-serif;
 }
 
+header {
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+}
+
+.intestazione {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
 .card {
+    display: flex;
+    align-items: center;
+}
+
+.contenuto {
     box-sizing: border-box;
     /*box-shadow: 20px 5px 10px 1px black; studia le ombre*/
     border: solid 2px black;
-    max-width: 275px;
+    min-width: 275px;
     padding: 30px 10px 20px;
+    border-radius: 10px;
+    width: calc((100% - 300px)/3);
 }
 
 .abbonamento p {
     color: gray;
     font-size: 12px;
-}
-
-.spese {
-    display: inlineS;
 }
 
 div .dollaro {
@@ -64,4 +87,31 @@ button {
     justify-content: center;
     margin: 30px 20px;
     width: 205;
+}
+
+.card-colori {
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+}
+
+.card-colori .risparmio {
+    color: black;
+}
+
+.card-colori .month {
+    color: white;
+}
+
+.card-colori p {
+    color: white;
+}
+
+.card-colori button {
+    background-color: white;
+    color: blueviolet;
+}
+
+.vantaggi p {
+    line-height: 2em;
 }
