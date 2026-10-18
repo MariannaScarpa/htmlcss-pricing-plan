@@ -1,4 +1,67 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
+}
+
+.card {
+    box-sizing: border-box;
+    /*box-shadow: 20px 5px 10px 1px black; studia le ombre*/
+    border: solid 2px black;
+    max-width: 275px;
+    padding: 30px 10px 20px;
+}
+
+.abbonamento p {
+    color: gray;
+    font-size: 12px;
+}
+
+.spese {
+    display: inlineS;
+}
+
+div .dollaro {
+    font-weight: bold;
+}
+
+div .costi {
+    font-weight: bolder;
+    font-size: 55px;
+}
+
+div .month {
+    color: gray;
+}
+
+
+div .risparmio {
+    background-color: gainsboro;
+    padding: 2px;
+    border-radius: 4px;
+}
+
+button {
+    background-color: blueviolet;
+    color: white;
+    width: 200px;
+    padding: 1em;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 1em;
+
+}
+
+.promozione {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vantaggi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px 20px;
+    width: 205;
 }
